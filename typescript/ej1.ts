@@ -7,7 +7,7 @@ type Bird= {
 }
 
 interface Dog extends Bird {
-    race: string;
+    race: string | "Husky" | "Labrador" | "Chucho";
     age: number;
 }
 const dog: Dog = {
