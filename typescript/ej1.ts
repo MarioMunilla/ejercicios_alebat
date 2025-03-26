@@ -10,6 +10,14 @@ interface Dog extends Bird {
     race: string | "Husky" | "Labrador" | "Chucho";
     age: number;
 }
+
+interface Cat extends Pick<Bird,"name"| "canSleep">{
+    color:string
+}
+
+interface Snake extends Pick<Bird,"canEat"| "canDrink" |"canSleep">{}
+
+
 const dog: Dog = {
     name: "Buddy",
     canEat: true,
