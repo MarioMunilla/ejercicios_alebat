@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Accesible</title>
+</head>
+
+<body>
+    <form action="" method="get">
+        <label for="name">Name
+            <input type="text" name="name" id="name" required aria-required="true">
+        </label>
+        <label for="last">Last
+            <input type="text" name="last" id="last" required aria-required="true">
+        </label>
+        <label for="age">Age
+            <input type="number" name="age" id="age" min="0" required aria-required="true">
+        </label>
+        <fieldset>
+            <legend>Terms and Conditions</legend>
+            <label for="agree">
+                <input type="radio" name="terms" id="agree" value="agree" required aria-required="true"> Agree
+            </label>
+            <label for="disagree">
+                <input type="radio" name="terms" id="disagree" value="disagree"> Disagree
+            </label>
+        </fieldset>
+        <label for="subscribe">
+            <input type="checkbox" name="subscribe" id="subscribe"> Agree to the terms?
+        </label>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
