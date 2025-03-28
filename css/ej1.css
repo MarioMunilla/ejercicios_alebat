@@ -1,0 +1,22 @@
+  h1{
+    --primary-color: #3498db;
+    --font-size-h1: 2.5rem;
+    --transition-duration: 0.3s;
+  }
+
+  h2{
+    --secondary-color: #2ecc71;
+    --font-size-h2: 2rem;
+    --transition-duration: 0.3s;
+  }
+
+  h3{
+    --font-size-h3: 1.5rem;
+    --primary-color: #3498db;
+    --transition-duration: 0.3s;
+  }
+  button{
+    --font-size-button: 1rem;
+    --transition-duration: 0.3s;
+    --transition-timing-function: ease-in-out;
+  }
