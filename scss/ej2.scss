@@ -1,0 +1,21 @@
+@mixin flex($direction: row, $justify: flex-start, $align: stretch) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+
+.container {
+    @include flex(column, center, center);
+    height: 100vh;
+    background-color: #f0f0f0;
+}   
+
+.item {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
