@@ -8,7 +8,7 @@ interface ProductCard {
 
 const products: ProductCard[] = [
     {
-        image: 'ejemplo1.jpg',
+        image: '/img/image1.png',
         title: 'Producto 1',
         description: 'Descripción del producto 1',
         price: 100,
