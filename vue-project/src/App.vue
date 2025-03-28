@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <TheTitle title-prop="Título estático"/>
+    <TheTitle>Mi título estático</TheTitle>
   </div>
 </template>
 

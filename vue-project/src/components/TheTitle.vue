@@ -1,10 +1,7 @@
 <script setup lang="ts">
- defineProps<{
-  titleProp:string
-}>();
 </script>
 <template>
-    <h2 class="title">{{ titleProp }}</h2>
+    <h2 class="title"><slot></slot></h2>
   </template>
   
   <style scoped>
