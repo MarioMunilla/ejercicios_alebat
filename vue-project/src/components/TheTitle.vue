@@ -1,5 +1,10 @@
+<script setup lang="ts">
+ defineProps<{
+  titleProp:string
+}>();
+</script>
 <template>
-    <h2 class="title">Título estático</h2>
+    <h2 class="title">{{ titleProp }}</h2>
   </template>
   
   <style scoped>
