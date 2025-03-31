@@ -4,16 +4,15 @@ import TheTitle from './components/TheTitle.vue';
 import ProductCard from './components/ProductCard.vue';
 import ParentComponent from './components/ParentComponent.vue';
 import ChildComponent from './components/ChildComponent.vue';
+import { RouterLink,RouterView } from 'vue-router';
 
 </script>
 
 <template>
-  <div id="app">
-    <TheTitle>Mi título estático</TheTitle>
-    <TheCounter/>
-    <ProductCard/>  
-    <ParentComponent/>
+  
+  <div id="app">  
   </div>
+  <RouterView />
 </template>
 
 

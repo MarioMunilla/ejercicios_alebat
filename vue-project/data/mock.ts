@@ -13,7 +13,7 @@ const products: ProductCard[] = [
         description: 'Descripción del producto 1',
         price: 100,
         button: () => {
-            console.log('Producto 1 button clicked!');
+            console.log('Producto 1 clicado!');
         }
     },
     {
@@ -22,7 +22,7 @@ const products: ProductCard[] = [
         description: 'Descripción del producto 2',
         price: 200,
         button: () => {
-            console.log('Producto 2 button clicked!');
+            console.log('Producto 2 clicado!');
         }
     },
     {
@@ -31,7 +31,7 @@ const products: ProductCard[] = [
         description: 'Descripción del producto 3',
         price: 300,
         button: () => {
-            console.log('Producto 3 button clicked!');
+            console.log('Producto 3 clicado!');
         }
     }
 ];
